@@ -40,7 +40,7 @@ let copyPass=()=>{
   return (
   <>
 <div className='passwordBox'>
-  <h2>Password Generator</h2>
+  <h2 backgrouncolor>Password Generator</h2>
   <div className='passwordBoxin'>
     <input type='text' value={fPass} readOnly /> <button onClick={copyPass}>Copy</button>
   </div>
